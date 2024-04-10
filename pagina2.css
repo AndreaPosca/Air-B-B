@@ -39,3 +39,15 @@ body p {
 .dropdown-toggle::after {
     color: black;
 }
+
+/* navbar di pagina 2 e 3*/
+
+.white-nav {
+    background-color: white;
+}
+
+.navbarDx a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
