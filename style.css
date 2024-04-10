@@ -14,6 +14,7 @@
 .navbar {
     color: white;
     height: 60px;
+
 }
 
 .navbarDx {
@@ -26,12 +27,17 @@ a {
     font-size: 13px;
 }
 
+.container {
+
+}
+
 /* Jumbotron */
 .jumbotron {
     height: 100vh;
     width: 100vw;
     background-image: url("assets/assets/home.jpg");
     background-size: cover;
+    margin-top: 60px;
 }
 
 /* Barra di ricerca centrale */
