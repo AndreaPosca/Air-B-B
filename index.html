@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar bg-black sticky-top ps-5 pe-5">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/assets/logo.png" alt="Logo Air B&B" id="logo">
+              </a>
+
+              <!-- link centrali -->
+              <div class="navCenter pb-4">
+                <a href="#">Place to stay</a>
+                <a class="mx-4" href="#">Experiences</a>
+                <a href="#">Online Experinces</a>
+              </div>
+
+              <!-- link di destra -->
+              <div class="navbarDx">
+                <a href="#">Became a host</a>
+                <a href="#"><i class="bi bi-globe2 m-4"></i></a>
+              <div class="btn-group">
+                <button class="btn btn-light rounded-5 p-1 btn-lg bi bi-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle"></i>        
+                </button>
+                <ul class="dropdown-menu">
+                  <li>Account</li>
+                  <li>Impostazioni</li>
+                  <li>Esci</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+    
+          </nav>
+    </header>
+    <main>
+
+        <!-- Creo la barra centrale di ricerca con i vari input da poter inserire -->
+        <div class="d-flex justify-content-center jumbotron">
+            <div class="search-bar mt-3 d-flex justify-content-center text-white sbg-white">
+                <div class="item-reserch">
+                  <label for="Location" class="form-control me-0 ps-0">Location</label>
+                  <input type="text" placeholder="Where are you going?">
+                </div>
+                <div class="item-reserch">
+                  <label for="Chech-in" class="form-control ps-0">Check-in</label>
+                  <input type="date" placeholder="gg/mm/aaaa">
+                </div>
+                <div class="item-reserch">
+                  <label for="Chech-out" class="form-control ps-0">Check-out</label>
+                  <input type="date" placeholder="gg/mm/aaaa">
+                </div>
+                <div class="item-reserch">
+                  <label for="Guests" class="form-control ps-0">Guests</label>
+                  <input type="text" placeholder="Add Guests">
+                </div>
+                <i class="bi bi-search d-flex justify-content-center align-item-center mt-2 ms-5"></i>
+            </div>
+            
+        </div>
+
+    <!-- Main -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+</body>
+</html>
