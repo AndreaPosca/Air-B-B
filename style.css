@@ -109,7 +109,16 @@ a {
 
  }
 
+ @media screen and (max-width:430px){
+    
+    .goNear{
+      font-size: 38px;
+      font-weight:bolder;
+      margin-left: 70%;
+      
+    }
   
+   }
 
 
   .explore{

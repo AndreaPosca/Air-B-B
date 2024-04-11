@@ -143,6 +143,20 @@
                       <li>
                         <a
                           class="dropdown-item"
+                          href="pagina2.html"
+                          >Place to stay</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="rooms.html"
+                          >Rooms</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
                           href=""
                           >Registrati</a
                         >
@@ -176,39 +190,39 @@
         <div class="d-inline-flex flex-column justify-content-end justify-content-md-center">
           <h1 class="my-0 goNear sm-50px">Go</h1>
           <h1 class="my-0 goNear">Near</h1>
-          <a href="lista-appartamenti.html">
+          <a href="rooms.html">
           <button type="button" class="btn btn-light btn-sm explore">Explore nearby stays</button></a>
         </div>
 
 
         <!-- Creo la barra centrale di ricerca con i vari input da poter inserire -->
-
+        <div class="container">
         <div class="row justify-content-center">
-          <div class="container rounded-pill border d-flex"> 
-            <div class="input-group d-flex align-items-center justify-content-center flex-nowrap">
-              <div class="d-flex flex-column px-2 sm-6  border-end">
+          <div class="container rounded-pill border d-flex "> 
+            <div class="row input-group d-flex align-items-center justify-content-center ">
+              <div class=" col  d-flex flex-column  border-end">
                 <label for="location">Location</label>
                 <input type="text" id="location" class="form-control border-0 p-0" placeholder="Where are you going?">
               </div>
-              <div class="d-flex flex-column px-2 sm-6 border-end d-md-block">
+              <div class=" col    d-flex flex-column  border-end d-md-block">
                 <label for="location">Check-in</label>
                 <input type="date" id="check-in" class="form-control border-0 p-0" placeholder="gg/mm/aaaa">
               </div>
-              <div class="d-flex flex-column px-2 sm-6   border-end d-md-block">
+              <div class=" col     d-flex flex-column   border-end d-md-block">
                 <label for="location">Check-out</label>
                 <input type="date" id="check-out" class="form-control border-0 p-0" placeholder="gg/mm/aaaa">
               </div>
-              <div class="d-flex flex-column px-2  sm-6 ">
+              <div class=" col  d-flex flex-column  ">
                 <label for="location">Guests</label>
                 <input type="text" id="guests" class="form-control border-0 p-0" placeholder="Add guests">
               </div>
-              <div class="input-group-append">
+              <div class="col input-group-append">
                 <i class="bi bi-search d-flex justify-content-center align-item-center mt-2 ms-5"></i>
               </div>  
             </div>
           </div>
         </div>
-
+      </div>
 
         <img class="img-fluid" src="./assets/home.jpg" alt="Home">
 
