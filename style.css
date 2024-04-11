@@ -96,34 +96,25 @@ a {
     font-size: 100px;
     font-weight:bolder;
     margin-left: 10%;
+    margin-left: 70%;
   }
  @media screen and (max-width:1200px){
     
   .goNear{
     font-size: 80px;
     font-weight:bolder;
-    margin-left: 10%;
+    margin-left: 70%;
     
   }
 
  }
 
- @media screen and (max-width:800px){
-    
-    .goNear {
-      font-size: 50px;
-      font-weight:bolder;
-      margin-left: 10%;
-      
-
-    }
-  
-   }
   
 
 
   .explore{
-    margin-left: 10%;
+    margin-left: 70%;
+    width: 180px;
   }
 
 
