@@ -17,6 +17,7 @@
                 <img src="assets/logo.png" alt="Logo Air B&B" id="logo">
               </a>
 
+
               <!-- link centrali -->
               <div class="navCenter pb-4">
                 <a href="pagina2.html">Place to stay</a>
@@ -45,8 +46,49 @@
     </header>
     <main>
 
+      <!-- go near -->
+
+      <div class="container-fluid px-0 mx-0">
+        <div class="d-inline-flex flex-column justify-content-end justify-content-md-center mx-1 pb-2 ps-2 p-0-md mx-5-md">
+          <h1 class="my-0 goNear">Go</h1>
+          <h1 class="my-0 goNear">Near</h1>
+          <a href="lista-appartamenti.html">
+          <button type="button" class="btn btn-light btn-sm">Explore nearby stays</button></a>
+        </div>
+
+
         <!-- Creo la barra centrale di ricerca con i vari input da poter inserire -->
-        <div class="d-flex justify-content-center jumbotron">
+
+        <div class="row justify-content-center">
+          <div class="container rounded-pill border d-flex"> 
+            <div class="input-group d-flex align-items-center justify-content-center flex-nowrap">
+              <div class="d-flex flex-column px-2 sm-6  border-end">
+                <label for="location">Location</label>
+                <input type="text" id="location" class="form-control border-0 p-0" placeholder="Where are you going?">
+              </div>
+              <div class="d-flex flex-column px-2 sm-6 border-end d-md-block">
+                <label for="location">Check-in</label>
+                <input type="date" id="check-in" class="form-control border-0 p-0" placeholder="gg/mm/aaaa">
+              </div>
+              <div class="d-flex flex-column px-2 sm-6   border-end d-md-block">
+                <label for="location">Check-out</label>
+                <input type="date" id="check-out" class="form-control border-0 p-0" placeholder="gg/mm/aaaa">
+              </div>
+              <div class="d-flex flex-column px-2  sm-6 ">
+                <label for="location">Guests</label>
+                <input type="text" id="guests" class="form-control border-0 p-0" placeholder="Add guests">
+              </div>
+              <div class="input-group-append">
+                <i class="bi bi-search d-flex justify-content-center align-item-center mt-2 ms-5"></i>
+              </div>  
+            </div>
+          </div>
+        </div>
+
+
+        <img class="img-fluid" src="./assets/home.jpg" alt="Home">
+
+        <!-- div class="d-flex justify-content-center jumbotron">
             <div class="search-bar mt-3 d-flex justify-content-center text-white sbg-white">
                 <div class="item-reserch">
                   <label for="Location" class="form-control me-0 ps-0">Location</label>
@@ -66,9 +108,11 @@
                 </div>
                 <i class="bi bi-search d-flex justify-content-center align-item-center mt-2 ms-5"></i>
             </div>
-            
-        </div>
 
+        </div> 
+
+ -->
+       
     <!-- Main -->
     </main>
 
