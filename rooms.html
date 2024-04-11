@@ -15,6 +15,7 @@
 
 <body>
 
+  <!-- NAVBAR -->
   <nav class="navbar bg-white sticky-top ps-5 pe-5">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
@@ -25,91 +26,113 @@
       <div class="navbarDx">
         <a href="#">Became a host</a>
         <a href="#"><i class="bi bi-globe2 m-4"></i></a>
-      <div class="btn-group">
-        <button class="btn btn-light rounded-5 p-1 btn-lg bi bi-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="bi bi-person-circle"></i>        
-        </button>
-        <ul class="dropdown-menu">
-          <li>Account</li>
-          <li>Impostazioni</li>
-          <li>Esci</li>
-        </ul>
-      </div>
+        <div class="btn-group">
+          <button class="btn btn-light rounded-5 p-1 btn-lg bi bi-list" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li>Account</li>
+            <li>Impostazioni</li>
+            <li>Esci</li>
+          </ul>
+        </div>
       </div>
     </div>
 
-</nav>
+  </nav>
 
   <div class="container">
 
-    <!-- room tilte -->
+    <!-- TITLE -->
     <div class="row">
       <div class="col">
-        <h1>Blamor home</h1>
+        <h3>Blamor home</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
       <div class="col-10">
-        <p> <span class="bold">4</span>,6 rating · Invess</p>
+        <small> <span class="bold">4</span>,6 rating · Invess</small>
       </div>
       <div class="col-1">
-        <p><i class="bi bi-box-arrow-in-up"></i>Share</p>
+        <small><i class="bi bi-box-arrow-in-up"></i>Share</small>
       </div>
       <div class="col-1">
-        <p><i class="bi bi-suit-heart"></i> Save</p>
+        <small><i class="bi bi-suit-heart"></i> Save</small>
       </div>
     </div>
 
-    <!-- room imgs -->
-    <div class="row">
+    <!-- IMG ROOM -->
+    <div class="row row-img">
+
       <div class="col-6">
         <div class="card">
-          <img src="assets/1.webp" class="card-img-top" alt="img">
+          <img src="assets/1.webp" class="rooms-hero" alt="img">
         </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-6 imgx4">
 
-        <div class="row ">
-          <div class="col-6">
-            <img src="assets/1.webp" class="card-img-top" alt="img">
+        <div class="row g-2 mb-2">
+          <div class="col-6 ">
+            <div class="card">
+              <img src="assets/2.webp" alt="img">
+            </div>
           </div>
           <div class="col-6">
-            <img src="assets/1.webp" class="card-img-top" alt="img">
+            <div class="card">
+              <img src="assets/3.webp" alt="img">
+            </div>
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-6">
+            <div class="card ">
+              <img src="assets/4.webp" alt="img">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <img src="assets/5.webp" alt="img">
+            </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-6">
-            <img src="assets/1.webp" class="card-img-top" alt="img">
-          </div>
-          <div class="col-6">
-            <img src="assets/1.webp" class="card-img-top" alt="img">
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- host -->
-    <div class="row">
-      <div class="col">
-        <h1>House - Host: Erica </h1>
-        <p>3 rooms · Perfect place to visit the Loch Ness and go looking for Nessie.</p>
-        <small class="bold">Shows host details</small>
       </div>
     </div>
 
-    <div class="row">
+    <!-- HOST -->
+    <div class="row row-host">
+      <div class="row">
+        <div class="col">
+          <h3>House - Host: Erica </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span>3 rooms · Perfect place to visit the Loch Ness and go looking for Nessie.</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <small class="bold">Shows host details</small>
+        </div>
+      </div>
+    </div>
 
-      <!-- detailes -->
-      <div class="col-6">
+
+
+    <!-- DETAILES -->
+    <div class="row row-detailes">
+
+      <!-- ----- info -->
+      <div class="col-6 col-info">
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-2">
             <i class="bi bi-house"></i>
           </div>
-          <div class="col-6">
+          <div class="col">
             <div class="row">
               <div class="col">
                 <h4>House</h4>
@@ -124,10 +147,10 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-2">
             <i class="bi bi-stars"></i>
           </div>
-          <div class="col-6">
+          <div class="col">
             <div class="row">
               <div class="col">
                 <h4>Advanced Cleaning Method</h4>
@@ -142,10 +165,10 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-2">
             <i class="bi bi-geo-alt-fill"></i>
           </div>
-          <div class="col-6">
+          <div class="col">
             <div class="row">
               <div class="col">
                 <h4>Inverness</h4>
@@ -160,10 +183,10 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-2">
             <i class="bi bi-calendar3"></i>
           </div>
-          <div class="col-6">
+          <div class="col">
             <div class="row">
               <div class="col">
                 <h4>Cancellation Terms and Fees</h4>
@@ -178,10 +201,10 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-2">
             <i class="bi bi-book"></i>
           </div>
-          <div class="col-6">
+          <div class="col">
             <div class="row">
               <div class="col">
                 <h4>Rules Of The House</h4>
@@ -195,34 +218,34 @@
           </div>
         </div>
 
-      </div><!-- details-->
+      </div><!-- info-->
 
-      <!-- calendar -->
-      <div class="col-6 position-relative">
-        <div class="card position-absolute top-50 start-50 translate-middle">
+      <!--col-calendar  -->
+      <div class="col-6 col-calendar position-relative ">
+        <div class="card position-absolute start-50 translate-middle">
           <div class="card-body">
             <div class="row">
-              <div class="col-6">
+              <div class="col-4">
                 <h6 class="card-title">Add dates to see the prices</h6>
               </div>
-              <div class="col-6">
-                <small><i class="bi bi-star-fill"></i>4.0,6 reviews</smasll>
+              <div class="col-8 text-end">
+                <small><i class="bi bi-star-fill"></i> 4.0,6 reviews</smasll>
               </div>
             </div>
 
-            <div class="row" id="calendar">
-              <div class="row">
-                <div class="col-6">
-                  <i class="bi bi-calendar">gg/mm/aaaa</i>
-                </div>
-                <div class="col-6">
-                  <i class="bi bi-calendar">gg/mm/aaaa</i>
-                </div>
-              </div>
-              <div class="row ">
-                <div class="col-12">
-                  Guest
-                </div>
+            <div class="row">
+              <div class="col">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td><input type="date" class="form-control"></td>
+                      <td><input type="date" class="form-control"></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><input type="text" class="form-control" placeholder="Guest"></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
 

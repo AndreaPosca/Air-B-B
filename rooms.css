@@ -1,17 +1,88 @@
-nav{
+/* ----- GLOBAL ---- */
+nav {
     background-color: antiquewhite;
 }
 
-.container{
-    border: 1px solid red;
-    margin-top:80px;
-    margin-left: ;
+.container {
+    margin-top: 60px;
 }
 
-.bold{
+.bold {
     font-weight: 700;
 }
 
-/* #calendar{
-    border:2px solid black;
-} */
+
+h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* ----- IMG ROOM ---- */
+
+.row-img .col-6 {
+    padding: 0 5px;
+}
+
+.rooms-hero {
+    max-height: 360px;
+    border-radius: 30px 0 0 30px;
+    padding-right: 9px;
+}
+
+.card {
+    border: none;
+    padding: 0;
+}
+
+.imgx4 img {
+    max-height: 176px;
+}
+
+.imgx4 .row:nth-child(1) .col-6:nth-of-type(2) img {
+    border-radius: 0 20px 0 0;
+}
+
+.imgx4 .row:nth-child(2) .col-6:nth-of-type(2) img {
+    border-radius: 0 0 20px 0;
+}
+
+/* ----- HOST ----- */
+.row-host {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row-host :nth-child(3) .col {
+    color: #5e5c5c;
+
+}
+
+/* ----- DETAILES ----- */
+/* ---------- info ---- */
+.col-info i {
+    font-size: 40px;
+}
+
+.col-info h4 {
+    margin-bottom: 0;
+}
+
+.col-info>.row {
+    margin-bottom: 50px;
+}
+
+
+/* --------- calendar --- */
+
+.col-calendar .card {
+    margin-top: 65px;
+    box-shadow: 10px 10px 23px 10px rgba(212, 212, 212, 1);
+}
+
+.col-calendar tr, .col-calendar td {
+    border: 1px solid black;
+}
+
+ .table{
+background-color: red;
+}
