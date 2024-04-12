@@ -27,20 +27,25 @@ a {
     font-size: 13px;
 }
 
+.bi-search{
+    cursor: pointer;
+}
 
+.container {
 
-/* Jumbotron 
+}
+
+/* Jumbotron */
 .jumbotron {
     height: 100vh;
-    width: 100vw
-    /* background-image: url("assets/home.jpg"); 
+    width: 100vw;
+    background-image: url("assets/home.jpg");
     background-size: cover;
     margin-top: 60px;
-    pos
-} */
+}
 
 /* Barra di ricerca centrale */
-/* .form-control {
+.form-control {
     border: none;
     border-radius: 0;
     font-weight: 600;
@@ -54,15 +59,15 @@ a {
 .item-reserch:nth-child(1){
     border-radius: 20px;
 }
- */
 
-/* .search-bar {
+
+.search-bar {
     width: 750px;
     height: 65px;
     border-radius: 80px;
     background-color: white;
 }
- */
+
 .bi-search {
     background-color:#E41E57;
     display: flex;
@@ -70,69 +75,39 @@ a {
     width: 45px;
     height: 45px;
     border-radius: 50px;
-    margin-bottom: 6px;
 }
 
-/* test */
-.container-fluid{
-    position: relative;
-}
+/* media quesies per regolare la searchbar */
 
-.container-fluid .d-inline-flex {
-    position: absolute;
-    height: 100%;
-    color: white;
-}
-
-.container.rounded-pill.border {
-    overflow: hidden;
-    background-color: white;
-    position: absolute;
-    width: fit-content;
-    margin-top: 4rem;
-  }
-
-  .goNear{
-    font-size: 100px;
-    font-weight:bolder;
-    margin-left: 10%;
-    margin-left: 70%;
-  }
- @media screen and (max-width:1200px){
+@media (max-width: 750px) {
+    .search-bar {
+        flex-direction: column;
+        padding-top: 150px;
+        height: 250px;
+        align-items: center;
+    }
+    .item-reserch {
+        width: 150px;
+    }
+    .search-bar {
+        background-color: transparent;
+    }
+    .navCenter, .navbarDx a {
+        display: none;
+    }
+    input, label {
+        border-radius: 15px;
+        margin: 5px;
+    }
     
-  .goNear{
-    font-size: 80px;
-    font-weight:bolder;
-    margin-left: 70%;
-    
-  }
+}
 
+/* finto footer */
+.trip img {
+    height: 50px;
+    width: 50px;
+}
+
+ .major, .junior {
+    width: 100vw;
  }
-
- @media screen and (max-width:430px){
-    
-    .goNear{
-      font-size: 38px;
-      font-weight:bolder;
-      margin-left: 70%;
-      
-    }
-
-    .barraRicerca{
-        width: 400px;
-    }
-    .loc{
-        margin-left: 20px !important;
-    }
-
-   
-    
-   }
-
-
-  .explore{
-    margin-left: 70%;
-    width: 180px;
-  }
-
-/* BARRA CENTRALE */
