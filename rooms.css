@@ -1,8 +1,4 @@
 /* ----- GLOBAL ---- */
-nav {
-    background-color: antiquewhite;
-}
-
 .container {
     margin-top: 60px;
     margin-bottom: 200px;
@@ -20,11 +16,11 @@ h3 {
 
 /* ----- IMG ROOM ---- */
 
-.row-img .col-6 {
+.hero-img {
     padding: 0 5px;
 }
 
-.rooms-hero {
+.hero-img img{
     max-height: 360px;
     border-radius: 30px 0 0 30px;
     padding-right: 9px;
@@ -78,12 +74,6 @@ h3 {
 
 
 /* --------- calendar --- */
-
-.col-reserv {
-    border: 1px solid green;
-}
-
-
 
 .col-reserv .card {
     margin-top: 100px;
@@ -166,6 +156,85 @@ h3 {
 color: grey;
 }
 
-.row-reviews .col-6 :nth-of-type(2).row{
+.row-reviews .col-md-6 :nth-of-type(2).row{
     margin-bottom: 15px;
+}
+
+
+
+
+/* -------------------------------------------- */
+/* -------------- @MEDIA ---------------------- */
+/* -------------------------------------------- */
+
+
+@media screen and (max-width:576px) {
+    
+    
+    /* ----- TITLE ---- */
+    .row-subtitle .col-sm-4
+    {
+        border: 2px solid red;
+    }
+
+    /* ----- IMG ROOM ---- */
+    .hero-img img {
+        border-radius: 30px 30px 0 0;
+        padding: 0;
+    }
+
+    .imgx4 .row.row:nth-child(1){
+        padding-bottom: 4px;
+    }
+    .imgx4 .row.row:nth-child(1) .col-6:nth-child(1),
+    .imgx4 .row.row:nth-child(2) .col-6:nth-child(1){
+        padding-right: 2px ;
+        
+    }
+    
+    .imgx4 .row.row:nth-child(1) .col-6:nth-child(2),
+    .imgx4 .row.row:nth-child(2) .col-6:nth-child(2){
+        padding-left: 2px ;
+    }
+
+
+    .imgx4 .row:nth-child(1) .col-6:nth-of-type(2) img {
+        border-radius: 0 0 0 0;
+    }
+
+    .imgx4 .row:nth-child(2) .col-6:nth-of-type(1) img {
+        border-radius: 0 0 0 30px;
+    }
+
+    .imgx4 .row:nth-child(2) .col-6:nth-of-type(2) img {
+        border-radius: 0 0 30px 0;
+    }
+
+    .row-img .col-sm-12:nth-child(2) {
+        padding: 5px 19px 0 19px;
+    }
+
+
+    /* ----- info ---- */
+    .row-detailes .col-sm-12 .row .col-1  {
+        margin-left:20px;       
+    }
+    .row-detailes .col-sm-12 .row .col  {
+        margin-left:20px;       
+    }
+    
+    /* ----- calendar ---- */
+    .col-reserv .card{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    /* ----- REVIEWS ---- */
+    .row-reviews .col-sm-12 {
+        padding: 30px;
+        padding-top:0;
+    }
+
+
+
 }

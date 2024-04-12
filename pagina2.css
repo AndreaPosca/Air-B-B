@@ -1,3 +1,4 @@
+
 .btn.btn-light{
     border-radius: 24px;
     border: 1px solid rgba(73, 72, 72, 0.696);
@@ -40,14 +41,14 @@ body p {
     color: black;
 }
 
-/* navbar di pagina 2 e 3*/
+/* ----- white navbar ----- */
 
-.white-nav {
-    background-color: white;
-}
-
-.navbarDx a{
+.navbar-nav a{
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 20px;
+}
+ 
+.collapse{
+    background-color: white;
 }

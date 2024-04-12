@@ -17,31 +17,36 @@
   </head>
   <body class="h-100">
 
-    <!-- AGGIUNGERE  NAVBAR-->
-    <nav class="navbar bg-white sticky-top ps-5 pe-5">
+    <nav class="navbar navbar-expand-lg fixed-top mx-5 bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="assets/logo-pink.png" alt="Logo Air B&B" id="logo">
         </a>
-
-        <!-- link di destra -->
-        <div class="navbarDx">
-          <a href="#">Became a host</a>
-          <a href="#"><i class="bi bi-globe2 m-4"></i></a>
-        <div class="btn-group">
-          <button class="btn btn-light rounded-5 p-1 btn-lg bi bi-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi bi-person-circle"></i>        
-          </button>
-          <ul class="dropdown-menu">
-            <li>Account</li>
-            <li>Impostazioni</li>
-            <li>Esci</li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto"> <!-- Aggiunto ms-auto -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Became a host</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-globe2 m-4"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link bi bi-list" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-person-circle"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Prenotazioni</a></li>
+                <li><a class="dropdown-item" href="#">Impostazioni</a></li>
+                <li><a class="dropdown-item" href="#">Log out</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
-        </div>
       </div>
-
-  </nav>
+    </nav>
 
     <!-- Contain -->
     <div class="container my-5">
